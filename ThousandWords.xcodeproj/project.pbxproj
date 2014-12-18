@@ -22,6 +22,9 @@
 		28F441E319EC587A003A0188 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F441C719EC587A003A0188 /* CoreData.framework */; };
 		28F441EB19EC587A003A0188 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28F441E919EC587A003A0188 /* InfoPlist.strings */; };
 		28F441ED19EC587A003A0188 /* ThousandWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F441EC19EC587A003A0188 /* ThousandWordsTests.m */; };
+		28F441F719EC66BB003A0188 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F441F619EC66BB003A0188 /* Storyboard.storyboard */; };
+		28F441FA19EC677A003A0188 /* SSAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F441F919EC677A003A0188 /* SSAlbumTableViewController.m */; };
+		28F441FD19EC7097003A0188 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F441FC19EC7097003A0188 /* Album.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		28F441E819EC587A003A0188 /* ThousandWordsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThousandWordsTests-Info.plist"; sourceTree = "<group>"; };
 		28F441EA19EC587A003A0188 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28F441EC19EC587A003A0188 /* ThousandWordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThousandWordsTests.m; sourceTree = "<group>"; };
+		28F441F619EC66BB003A0188 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		28F441F819EC677A003A0188 /* SSAlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlbumTableViewController.h; sourceTree = "<group>"; };
+		28F441F919EC677A003A0188 /* SSAlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAlbumTableViewController.m; sourceTree = "<group>"; };
+		28F441FB19EC7097003A0188 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		28F441FC19EC7097003A0188 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +123,13 @@
 		28F441C919EC587A003A0188 /* ThousandWords */ = {
 			isa = PBXGroup;
 			children = (
-				28F441D219EC587A003A0188 /* SSAppDelegate.h */,
-				28F441D319EC587A003A0188 /* SSAppDelegate.m */,
+				28F441F619EC66BB003A0188 /* Storyboard.storyboard */,
+				28F441F819EC677A003A0188 /* SSAlbumTableViewController.h */,
+				28F441F919EC677A003A0188 /* SSAlbumTableViewController.m */,
 				28F441D819EC587A003A0188 /* Images.xcassets */,
 				28F441D519EC587A003A0188 /* ThousandWords.xcdatamodeld */,
+				28F441FB19EC7097003A0188 /* Album.h */,
+				28F441FC19EC7097003A0188 /* Album.m */,
 				28F441CA19EC587A003A0188 /* Supporting Files */,
 			);
 			path = ThousandWords;
@@ -127,6 +138,8 @@
 		28F441CA19EC587A003A0188 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28F441D219EC587A003A0188 /* SSAppDelegate.h */,
+				28F441D319EC587A003A0188 /* SSAppDelegate.m */,
 				28F441CB19EC587A003A0188 /* ThousandWords-Info.plist */,
 				28F441CC19EC587A003A0188 /* InfoPlist.strings */,
 				28F441CF19EC587A003A0188 /* main.m */,
@@ -231,6 +244,7 @@
 			files = (
 				28F441CE19EC587A003A0188 /* InfoPlist.strings in Resources */,
 				28F441D919EC587A003A0188 /* Images.xcassets in Resources */,
+				28F441F719EC66BB003A0188 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				28F441D719EC587A003A0188 /* ThousandWords.xcdatamodeld in Sources */,
+				28F441FA19EC677A003A0188 /* SSAlbumTableViewController.m in Sources */,
 				28F441D419EC587A003A0188 /* SSAppDelegate.m in Sources */,
+				28F441FD19EC7097003A0188 /* Album.m in Sources */,
 				28F441D019EC587A003A0188 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
